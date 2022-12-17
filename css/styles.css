@@ -22,25 +22,105 @@ logo{
 
 .header {
 }
+
+.list {
+list-style: none}
+
+.link{
+text-decoration: none;}
+
 .header-logo {
 }
 .header-nav {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+   
+    color: #2E2F42;
 }
-.header-list {
+
+.header-link: {
+
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+  
+    color: #2E2F42;
+    }
+
+.header-link:hover,
+.header-link: {
+
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
-.header-item {
-}
-.contacts {
-}
-.header-mail {
-}
+
+
+.header-mail,
 .header-tel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+
+color: #434455;
 }
+
 .main {
+background: #2E2F42;
 }
 .main-title {
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
 }
+
 .main-btn {
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.9;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+
+.visually-hidden {
+    border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 .about {
 }
@@ -49,12 +129,42 @@ logo{
 .about-list {
 }
 .about-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+
+letter-spacing: 0.02em;
+
+color: #2E2F42;
 }
+
 .about-text {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+
+color: #434455;
+
 }
 .product {
 }
 .product-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+
 }
 .product-catalog {
 }
@@ -63,16 +173,86 @@ logo{
 .team {
 }
 .team-title {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
 }
 .team-catalog {
 }
 .team-item {
 }
 .team-tit {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+
+color: #2E2F42;
 }
+
 .team-text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+
+color: #434455;
 }
+
+footer {
+    position: absolute;
+
+background: #2E2F42;
+}
+
 .footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  color: #F4F4FD;
 }
+
+.footer-logo-web{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+
+color: #4D5AE5;
+
+}
+
 .footer-text {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.02em;
+
+color: #E7E9FC;
+
 }
