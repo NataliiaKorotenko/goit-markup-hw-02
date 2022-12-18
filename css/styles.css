@@ -82,8 +82,7 @@ logo{
     color: #434455;
 }
 
-.main {
-    background: #2E2F42;
+.main {;
 }
 .main-title {
     font-family: 'Roboto';
@@ -91,7 +90,6 @@ logo{
     font-size: 56px;
     line-height: 1.07;
 
-    text-align: center;
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
@@ -103,8 +101,6 @@ logo{
     font-size: 16px;
     line-height: 1.9;
 
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
 
     color: #FFFFFF;
@@ -124,12 +120,9 @@ logo{
 }
 
 .menu {
-    position: relative;
     width: 1440px;
     height: 2074px;
 
-    background: #FFFFFF;
-}
 
 .filters-btn {
     font-family: 'Roboto';
@@ -179,10 +172,7 @@ logo{
     font-size: 36px;
     line-height: 1.11;
 
-
-    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 
     color: #2E2F42;
 
@@ -199,9 +189,7 @@ logo{
     font-size: 36px;
     line-height: 1.11;
 
-    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 
     color: #2E2F42;
 }
@@ -209,7 +197,9 @@ logo{
 }
 .team-item {
 }
-.team-tit {
+
+.team-tit,
+.menu-tit {
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 20px;
@@ -231,33 +221,20 @@ logo{
     color: #434455;
 }
 
-.menu-tit {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.5;
-
-    letter-spacing: 0.02em;
-   
-    color: #2E2F42;
-}
-
 .menu-text {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
  
     letter-spacing: 0.02em;
 
     color: #434455; 
 }
 
-footer {
-    position: absolute;
-
-    background: #2E2F42;
+}
+footer  {
+}
 }
 
 .footer-logo {
@@ -266,10 +243,9 @@ footer {
     font-size: 18px;
     line-height: 1.17;
 
-    display: flex;
-    align-items: center;
+ 
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+
     color: #F4F4FD;
 }
 
@@ -279,11 +255,8 @@ footer {
     font-size: 18px;
     line-height: 1.17;
 
-    display: flex;
-    align-items: center;
+  
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
 
     color: #4D5AE5;
 }
@@ -297,5 +270,4 @@ footer {
     letter-spacing: 0.02em;
 
     color: #E7E9FC;
-
 }
