@@ -59,7 +59,7 @@ logo{
 
 .header-link:hover,
 .header-link:footer { 
-    color: red;
+    color: #4D5AE5;;
 }
 
 .visually-hidden {
@@ -81,9 +81,7 @@ logo{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-
     letter-spacing: 0.02em;
-
     color: #434455;
 }
 
@@ -112,10 +110,6 @@ logo{
     cursor: pointer;
 }
 
-.menu {
-    width: 1440px;
-    height: 2074px;
-}
 
 .filters-link {
     background: #FFFFFF;
