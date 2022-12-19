@@ -39,6 +39,9 @@ logo{
     color: #4D5AE5;
 }
 
+.header-item {
+    color: #2E2F42;
+}  
 .header-nav {
     font-family: 'Roboto';
     font-weight: 600;
@@ -77,8 +80,6 @@ logo{
 .header-mail,
 .header-tel {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -143,7 +144,6 @@ logo{
 
 .about-text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -189,7 +189,6 @@ logo{
 
 .team-text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -198,7 +197,6 @@ logo{
 
 .menu-text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -234,7 +232,6 @@ footer  {
 
 .footer-text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
